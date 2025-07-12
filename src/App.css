@@ -1,9 +1,7 @@
 main {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  /* padding: 1.5rem; */
   gap: 2rem;
 }
 

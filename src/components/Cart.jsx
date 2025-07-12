@@ -51,7 +51,7 @@ export const Cart = ({ selectedItems, showModal, setShowModal, onRemove, convert
             </>
             : <>
                 <img className="cart-empty-img" src="/assets/images/illustration-empty-cart.svg"></img>
-                <p>Your added items will appear here</p>
+                <p className="empty-cart-message">Your added items will appear here</p>
             </>
         }
     </section>

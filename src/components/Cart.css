@@ -68,6 +68,10 @@
     align-self: center;
 }
 
+.empty-cart-message {
+    text-align: center;
+}
+
 @media (min-width: 1440px) {
     .cart-container {
         width: 400px;

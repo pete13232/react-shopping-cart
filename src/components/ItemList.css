@@ -1,0 +1,19 @@
+.order-detail {
+    display: flex;
+    gap: 0.8rem
+}
+
+.item-quantity {
+    color: var(--Red);
+}
+
+.order-detail-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.order-detail-container img {
+    width: 48px;
+    height: 48px;
+}

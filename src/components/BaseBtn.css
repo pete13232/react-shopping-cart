@@ -1,0 +1,15 @@
+.confirm-order-btn {
+    text-align: center;
+    width: 100%;
+
+    padding: 1rem;
+    background-color: var(--Red);
+    border-radius: 1.2rem;
+    border: none;
+    color: var(--Rose-50);
+}
+
+.confirm-order-btn:hover {
+    background-color: hsl(14, 85%, 32%);
+    transition: .18s;
+}

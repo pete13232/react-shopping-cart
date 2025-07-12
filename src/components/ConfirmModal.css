@@ -1,0 +1,72 @@
+.modal-backdrop {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal-body {
+    background-color: var(--Rose-50);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.confirm-img {
+    width: 48px;
+    height: 48px;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+
+    gap: 2rem;
+    padding: 2.8rem;
+    border-radius: 1rem;
+    background-color: white;
+
+    position: fixed;
+    bottom: 0;
+}
+
+.modal-container {
+    color: var(--Rose-500);
+}
+
+.modal-container h3 {
+    text-align: start;
+    color: var(--Rose-900)
+}
+
+.modal-total {
+    color: var(--Rose-900);
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.modal-total-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+/* .modal-total-container {
+    margin-top: 1rem;
+} */
+
+@media (min-width: 768px) {
+    .modal-container {
+        position: unset;
+        width: 600px;
+    }
+}

@@ -1,0 +1,62 @@
+.product-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.8rem;
+}
+
+.product-img.active {
+    border: 3px solid var(--Red);
+}
+
+.product-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.product {
+    max-width: 320px;
+}
+
+.product-category {
+    color: var(--Rose-500);
+}
+
+.product-name {
+    color: var(--Rose-900);
+}
+
+.product-price {
+    color: var(--Red);
+}
+
+.card-order {
+    list-style-type: none;
+}
+
+.picture-with-btn-container {
+    position: relative;
+    margin-bottom: 1.6rem;
+}
+
+
+@media (min-width: 768px) {
+    .product-list-container {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 800px;
+    }
+
+    .product {
+        max-width: 250px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .product {
+        max-width: 250px;
+    }
+}

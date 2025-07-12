@@ -7,7 +7,7 @@ export const ConfirmModal = ({ selectedItems, onReset, convertCurrency, totalPri
         <div className="modal-backdrop">
             <section className="modal-container">
                 <div>
-                    <img className="confirm-img" src="/public/assets/images/icon-order-confirmed.svg" alt="" />
+                    <img className="confirm-img" src="/assets/images/icon-order-confirmed.svg" alt="" />
                     <h3>Order Confirmed</h3>
                     <p>We hope you enjoy your food!</p>
                 </div>

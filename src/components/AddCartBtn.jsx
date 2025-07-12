@@ -23,7 +23,7 @@ export const AddCartBtn = ({ product, id, handleSelected, handleIncrement, handl
                 onClick={() => handleSelected(id)}
                 className="product-btn add-to-cart-btn"
             >
-                <img src="/public/assets/images/icon-add-to-cart.svg" alt="" />
+                <img src="/assets/images/icon-add-to-cart.svg" alt="" />
                 <p>Add to Cart</p>
             </BaseBtn>
         )

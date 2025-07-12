@@ -39,7 +39,7 @@ export const Cart = ({ selectedItems, showModal, setShowModal, onRemove, convert
                 </div>
                 <div className="carbon-badge">
                     <span>
-                        <img src="/public/assets/images/icon-carbon-neutral.svg" alt="" />
+                        <img src="/assets/images/icon-carbon-neutral.svg" alt="" />
                     </span>
                     <span>
                         This is a <b>carbon-neutral</b> delivery
@@ -50,7 +50,7 @@ export const Cart = ({ selectedItems, showModal, setShowModal, onRemove, convert
                 </BaseBtn>
             </>
             : <>
-                <img className="cart-empty-img" src="/public/assets/images/illustration-empty-cart.svg"></img>
+                <img className="cart-empty-img" src="/assets/images/illustration-empty-cart.svg"></img>
                 <p>Your added items will appear here</p>
             </>
         }

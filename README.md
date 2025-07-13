@@ -37,19 +37,19 @@ Users should be able to:
 Below are screenshots illustrating the page preview:
 
 <div align="center">
-    <img src="./design/desktop-design-empty.jpg" alt="Cart empty (Desktop)" height="500" />
+    <img src="./design/desktop-design-empty.jpg" alt="Cart empty (Desktop)" height="600" />
     <br>
     <em>Figure 1: Cart empty (Desktop)</em>
 </div>
 <br>
 <div align="center">
-    <img src="./design/desktop-design-selected.jpg" alt="Product selected (Desktop)" width="500" />
+    <img src="./design/desktop-design-selected.jpg" alt="Product selected (Desktop)" width="600" />
     <br>
     <em>Figure 2: Product selected (Desktop)</em>
 </div>
 <br>
 <div align="center">
-    <img src="./design/desktop-design-order-confirmation.jpg" alt="Order Confirmation (Desktop)" width="500" />
+    <img src="./design/desktop-design-order-confirmation.jpg" alt="Order Confirmation (Desktop)" width="600" />
     <br>
     <em>Figure 3: Order Confirmation (Desktop)</em>
 </div>
